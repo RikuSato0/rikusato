@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Console Message
     // ================================
     console.log('%c👋 Olá! ', 'color: #6366f1; font-size: 20px; font-weight: bold;');
-    console.log('%cEste é o portfolio de Maykon Jaxson', 'color: #8b5cf6; font-size: 14px;');
+    console.log('%cEste é o portfolio de Riku Sato', 'color: #8b5cf6; font-size: 14px;');
     console.log('%cInteressado em trabalhar juntos? Entre em contato!', 'color: #ec4899; font-size: 14px;');
 
     // ================================

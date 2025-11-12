@@ -116,7 +116,7 @@ Antes de submeter, teste:
 Se tiver dúvidas sobre como contribuir:
 
 - Abra uma issue com a tag `[Question]`
-- Entre em contato via email: contato@maykonjaxson.com
+- Entre em contato via email: contato@rikusato.com
 
 ## 🎉 Reconhecimento
 

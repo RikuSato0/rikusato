@@ -1,4 +1,4 @@
-# 🚀 Maykon Jaxson - Portfolio Profissional
+# 🚀 Riku Sato - Portfolio Profissional
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -9,7 +9,7 @@
 
 ## 📋 Sobre o Projeto
 
-Este é meu portfolio pessoal onde compartilho meus projetos, habilidades e experiências como Desenvolvedor Web Full Stack. O site foi desenvolvido com foco em performance, acessibilidade e experiência do usuário.
+Este é meu portfolio pessoal onde compartilho meus projetos, habilidades e experiências como Desenvolvedor Web Full Stack. Sou Riku Sato, apaixonado por criar soluções web inovadoras. O site foi desenvolvido com foco em performance, acessibilidade e experiência do usuário.
 
 ### ✨ Características Principais
 
@@ -32,7 +32,7 @@ Este é meu portfolio pessoal onde compartilho meus projetos, habilidades e expe
 ## 📂 Estrutura do Projeto
 
 ```
-MaykonJaxson.github.io/
+RikuSato-Portfolio/
 │
 ├── index.html              # Página principal
 ├── about.html              # Página sobre
@@ -60,7 +60,7 @@ MaykonJaxson.github.io/
 │   │   └── project5.jpg
 │   │
 │   └── cv/                # Currículo para download
-│       └── Maykon_Jaxson_CV.pdf
+│       └── Riku_Sato_CV.pdf
 │
 ├── .gitignore             # Arquivos ignorados pelo Git
 └── README.md              # Este arquivo
@@ -72,7 +72,7 @@ MaykonJaxson.github.io/
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/MaykonJaxson/MaykonJaxson.github.io.git
+   git clone https://github.com/RikuSato0/MaykonJaxson.github.io.git
    ```
 
 2. **Navegue até o diretório**
@@ -182,12 +182,12 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📧 Contato
 
-**Maykon Jaxson**
+**Riku Sato**
 
-- 🌐 Website: [maykonjaxson.github.io](https://maykonjaxson.github.io)
-- 📧 Email: contato@maykonjaxson.com
-- 💼 LinkedIn: [linkedin.com/in/maykonjaxson](https://linkedin.com/in/maykonjaxson)
-- 🐱 GitHub: [@MaykonJaxson](https://github.com/MaykonJaxson)
+- 🌐 Website: [rikusato0.github.io](https://rikusato0.github.io)
+- 📧 Email: contato@rikusato.com
+- 💼 LinkedIn: [linkedin.com/in/rikusato](https://linkedin.com/in/rikusato)
+- 🐱 GitHub: [@RikuSato0](https://github.com/RikuSato0)
 
 ## 🙏 Agradecimentos
 
@@ -200,5 +200,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ⭐ **Se você gostou deste projeto, não esqueça de dar uma estrela!** ⭐
 
-Feito com ❤️ por [Maykon Jaxson](https://github.com/MaykonJaxson)
+Feito com ❤️ por [Riku Sato](https://github.com/RikuSato0)
 
