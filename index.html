@@ -1,24 +1,252 @@
-<html>
-    <head>
-      <title>
-      Maykon Jaxson
-      </title>
-    </head>
-    <body>
-Dale
-<h1>
-    Introdução
-</h1>
-<p>
-    Bem vindo
-</p>
-<h2>
-    Motivação
-</h2>
-<p>
-    <B>NEGRITO</B> <I>ITALICO</I>
-</p>
-<img src="Jax.jpeg"  />
-<a href="pagina2.html"> Pagina2 </a>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profissional de Maykon Jaxson - Desenvolvedor Web">
+    <title>Maykon Jaxson - Portfolio Profissional</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Maykon<span class="highlight">Jaxson</span></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="contact.html" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Olá, eu sou <span class="highlight">Maykon Jaxson</span></h1>
+            <p class="hero-subtitle">Desenvolvedor Web Full Stack | Designer UI/UX</p>
+            <p class="hero-description">
+                Bem-vindo ao meu portfolio profissional. Transformo ideias em experiências digitais incríveis.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                <a href="contact.html" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/images/profile.jpg" alt="Maykon Jaxson" class="profile-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Introdução</h3>
+                    <p>
+                        Sou um desenvolvedor apaixonado por criar soluções web inovadoras e funcionais.
+                        Com experiência em desenvolvimento front-end e back-end, busco sempre entregar
+                        produtos de alta qualidade que superem as expectativas.
+                    </p>
+                    <h3>Motivação</h3>
+                    <p>
+                        Minha <strong>motivação</strong> vem da possibilidade de <em>impactar positivamente</em>
+                        a vida das pessoas através da tecnologia. Cada projeto é uma oportunidade de
+                        aprender algo novo e criar algo extraordinário.
+                    </p>
+                    <a href="about.html" class="btn btn-primary">Saiba Mais</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/Jax.jpeg" alt="Workspace" class="workspace-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="Projeto 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Moderno</h3>
+                        <p>Plataforma completa de vendas online com painel administrativo.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <a href="projects.html#project1" class="project-link">Ver Detalhes →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Projeto 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>App de Gerenciamento</h3>
+                        <p>Sistema de gestão de tarefas e projetos com interface intuitiva.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                        <a href="projects.html#project2" class="project-link">Ver Detalhes →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3.jpg" alt="Projeto 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Criativo</h3>
+                        <p>Website portfolio com animações e design responsivo.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="projects.html#project3" class="project-link">Ver Detalhes →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="projects.html" class="btn btn-primary">Ver Todos os Projetos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades & Tecnologias</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Front-end</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Back-end</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Ferramentas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Maykon Jaxson</h3>
+                    <p>Desenvolvedor Web apaixonado por criar experiências digitais incríveis.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maykon Jaxson. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
 </html>
