@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos de Maykon Jaxson - Portfolio">
+    <title>Projetos - Maykon Jaxson</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Maykon<span class="highlight">Jaxson</span></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="about.html" class="nav-link">Sobre</a></li>
+                <li><a href="projects.html" class="nav-link active">Projetos</a></li>
+                <li><a href="contact.html" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Meus Projetos</h1>
+            <p>Confira alguns dos trabalhos que realizei</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-showcase">
+        <div class="container">
+            <div class="projects-grid-full">
+                <!-- Project 1 -->
+                <div class="project-card-full" id="project1" data-category="web">
+                    <div class="project-image-full">
+                        <img src="assets/images/project1.jpg" alt="E-commerce Moderno">
+                        <div class="project-overlay">
+                            <a href="#" class="overlay-btn">Ver Demo</a>
+                            <a href="#" class="overlay-btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content-full">
+                        <h3>E-commerce Moderno</h3>
+                        <p class="project-description">
+                            Plataforma completa de vendas online com painel administrativo, gestão de
+                            produtos, carrinho de compras, processamento de pagamentos e sistema de
+                            avaliações. Implementado com React no front-end e Node.js no back-end.
+                        </p>
+                        <div class="project-details">
+                            <div class="detail-item">
+                                <strong>Cliente:</strong> Tech Store Brasil
+                            </div>
+                            <div class="detail-item">
+                                <strong>Data:</strong> Janeiro 2025
+                            </div>
+                            <div class="detail-item">
+                                <strong>Categoria:</strong> Web Development
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Stripe</span>
+                            <span class="tag">Redux</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Características Principais:</h4>
+                            <ul>
+                                <li>Sistema de autenticação JWT</li>
+                                <li>Painel administrativo completo</li>
+                                <li>Integração com gateway de pagamento</li>
+                                <li>Sistema de busca e filtros avançados</li>
+                                <li>Responsive design para todos dispositivos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card-full" id="project2" data-category="web">
+                    <div class="project-image-full">
+                        <img src="assets/images/project2.jpg" alt="App de Gerenciamento">
+                        <div class="project-overlay">
+                            <a href="#" class="overlay-btn">Ver Demo</a>
+                            <a href="#" class="overlay-btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content-full">
+                        <h3>App de Gerenciamento de Tarefas</h3>
+                        <p class="project-description">
+                            Sistema de gestão de tarefas e projetos com interface intuitiva, permitindo
+                            colaboração em equipe, atribuição de tarefas, acompanhamento de progresso
+                            e notificações em tempo real.
+                        </p>
+                        <div class="project-details">
+                            <div class="detail-item">
+                                <strong>Cliente:</strong> Projeto Pessoal
+                            </div>
+                            <div class="detail-item">
+                                <strong>Data:</strong> Dezembro 2024
+                            </div>
+                            <div class="detail-item">
+                                <strong>Categoria:</strong> Web App
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">Vuex</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Características Principais:</h4>
+                            <ul>
+                                <li>Quadros Kanban interativos</li>
+                                <li>Notificações em tempo real</li>
+                                <li>Colaboração multi-usuário</li>
+                                <li>Sistema de prioridades e tags</li>
+                                <li>Relatórios e analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card-full" id="project3" data-category="design">
+                    <div class="project-image-full">
+                        <img src="assets/images/project3.jpg" alt="Portfolio Criativo">
+                        <div class="project-overlay">
+                            <a href="#" class="overlay-btn">Ver Demo</a>
+                            <a href="#" class="overlay-btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content-full">
+                        <h3>Portfolio Criativo com Animações</h3>
+                        <p class="project-description">
+                            Website portfolio moderno com animações suaves, design responsivo e
+                            otimizado para performance. Criado com tecnologias puras (HTML5, CSS3, JavaScript)
+                            para demonstrar domínio dos fundamentos web.
+                        </p>
+                        <div class="project-details">
+                            <div class="detail-item">
+                                <strong>Cliente:</strong> Designer Freelancer
+                            </div>
+                            <div class="detail-item">
+                                <strong>Data:</strong> Novembro 2024
+                            </div>
+                            <div class="detail-item">
+                                <strong>Categoria:</strong> Web Design
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">GSAP</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Características Principais:</h4>
+                            <ul>
+                                <li>Animações suaves com GSAP</li>
+                                <li>Design 100% responsivo</li>
+                                <li>Performance otimizada (90+ Lighthouse)</li>
+                                <li>Dark/Light mode toggle</li>
+                                <li>Galeria interativa de projetos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card-full" id="project4" data-category="mobile">
+                    <div class="project-image-full">
+                        <img src="assets/images/project4.jpg" alt="App Fitness">
+                        <div class="project-overlay">
+                            <a href="#" class="overlay-btn">Ver Demo</a>
+                            <a href="#" class="overlay-btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content-full">
+                        <h3>App de Fitness e Saúde</h3>
+                        <p class="project-description">
+                            Aplicativo mobile para acompanhamento de exercícios, dieta e metas de saúde.
+                            Desenvolvido com React Native, oferece uma experiência nativa em iOS e Android.
+                        </p>
+                        <div class="project-details">
+                            <div class="detail-item">
+                                <strong>Cliente:</strong> FitLife Company
+                            </div>
+                            <div class="detail-item">
+                                <strong>Data:</strong> Outubro 2024
+                            </div>
+                            <div class="detail-item">
+                                <strong>Categoria:</strong> Mobile App
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Expo</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Redux</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Características Principais:</h4>
+                            <ul>
+                                <li>Rastreamento de exercícios e calorias</li>
+                                <li>Planos de treino personalizados</li>
+                                <li>Integração com dispositivos wearables</li>
+                                <li>Gráficos de progresso</li>
+                                <li>Modo offline</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card-full" id="project5" data-category="web">
+                    <div class="project-image-full">
+                        <img src="assets/images/project5.jpg" alt="Dashboard Analytics">
+                        <div class="project-overlay">
+                            <a href="#" class="overlay-btn">Ver Demo</a>
+                            <a href="#" class="overlay-btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content-full">
+                        <h3>Dashboard de Analytics</h3>
+                        <p class="project-description">
+                            Painel administrativo com visualização de dados em tempo real, gráficos
+                            interativos e relatórios personalizáveis. Sistema robusto para análise
+                            de métricas de negócio.
+                        </p>
+                        <div class="project-details">
+                            <div class="detail-item">
+                                <strong>Cliente:</strong> Analytics Pro
+                            </div>
+                            <div class="detail-item">
+                                <strong>Data:</strong> Setembro 2024
+                            </div>
+                            <div class="detail-item">
+                                <strong>Categoria:</strong> Web Application
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Características Principais:</h4>
+                            <ul>
+                                <li>Visualizações de dados interativas</li>
+                                <li>Exportação de relatórios PDF/Excel</li>
+                                <li>Sistema de alertas customizável</li>
+                                <li>API RESTful para integração</li>
+                                <li>Controle de acesso por perfil</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Gostou do que viu?</h2>
+            <p>Vamos criar algo incrível juntos!</p>
+            <a href="contact.html" class="btn btn-primary">Iniciar um Projeto</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Maykon Jaxson</h3>
+                    <p>Desenvolvedor Web apaixonado por criar experiências digitais incríveis.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="projects.html">Projetos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maykon Jaxson. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/projects-filter.js"></script>
+</body>
+</html>
+
