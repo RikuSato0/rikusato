@@ -1,0 +1,371 @@
+/* ================================
+   Responsive Design
+   ================================ */
+
+/* Tablet Styles */
+@media (max-width: 992px) {
+    /* Hero Section */
+    .hero .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+
+    .profile-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* About Section */
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    /* Projects */
+    .project-card-full {
+        grid-template-columns: 1fr;
+    }
+
+    .project-image-full {
+        height: 300px;
+    }
+
+    /* About Detail */
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-sidebar {
+        order: -1;
+    }
+
+    /* Contact */
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    /* Typography */
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    /* Navigation */
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: var(--bg-white);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: var(--shadow-lg);
+        padding: 2rem 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Hero */
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Sections */
+    section {
+        padding: 60px 20px;
+    }
+
+    /* Buttons */
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Projects */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-details {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    /* Timeline */
+    .timeline-item {
+        flex-direction: column;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    /* Contact */
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* About */
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Filter Buttons */
+    .filter-buttons {
+        flex-direction: column;
+    }
+
+    .filter-btn {
+        width: 100%;
+    }
+
+    /* Experience */
+    .experience-item {
+        padding: 1.5rem;
+    }
+
+    .experience-item h3 {
+        font-size: 1.2rem;
+    }
+
+    /* CTA */
+    .cta h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta p {
+        font-size: 1rem;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .project-content-full {
+        padding: 1.5rem;
+    }
+
+    .project-content-full h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form-container {
+        padding: 1.5rem;
+    }
+
+    .info-card {
+        padding: 1.5rem;
+    }
+
+    .skill-category {
+        padding: 1.5rem;
+    }
+
+    .page-header {
+        padding: 100px 15px 40px;
+    }
+
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Landscape Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        min-height: auto;
+        padding: 120px 20px 50px;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .hamburger,
+    .hero-buttons,
+    .cta,
+    .footer,
+    .map-section {
+        display: none;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+        color: #000;
+    }
+
+    .hero,
+    section {
+        padding: 20px 0;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #000;
+    }
+}
+
+/* High Resolution Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .profile-img,
+    .workspace-img,
+    .project-image img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-dark: #f9fafb;
+        --text-light: #d1d5db;
+        --bg-light: #1f2937;
+        --bg-white: #111827;
+        --border-color: #374151;
+    }
+
+    .navbar {
+        background: var(--bg-white);
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .hero {
+        background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    }
+
+    .project-card,
+    .skill-category,
+    .info-card,
+    .contact-item,
+    .experience-item {
+        background: var(--bg-light);
+    }
+
+    .contact-form-container {
+        background: var(--bg-light);
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        background: var(--bg-white);
+        color: var(--text-dark);
+        border-color: var(--border-color);
+    }
+}
+
